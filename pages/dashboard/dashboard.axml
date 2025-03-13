@@ -11,4 +11,29 @@
     </view>
   </view>
 
+  <view class="container">
+    <view class="header">
+      <text class="text h2">Withdraw money from PayPal to MPESA</text>
+      <text class="text">You can easily withdraw your money to your MPESA account, and use it whenever, wherever you like</text>
+    </view>
+  
+    <view class="body">
+      <view class="balance-info">
+        <text class="body-text h3">Paypal Balance</text>
+        <text class="body-text h1 margin-top">US $43000.25</text>
+        <text class="body-text">Available</text>
+        
+      </view>
+        
+        <button class="btn" size="default" type="primary">Withdraw to MPESA</button>
+
+    </view>
+  
+    <view class="transact">
+      <button class="btn" size="default" type="primary">Send</button>
+      <button class="btn" size="default" type="primary">Request</button>
+    </view>
+    
+  </view>
+
 </view>

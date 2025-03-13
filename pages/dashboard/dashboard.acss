@@ -1,3 +1,9 @@
+*{
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+
 .user-dashboard{
   display: flex;
   flex-direction: column;
@@ -9,19 +15,95 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 1.3rem;
-  padding: 8px 10px 0 10px;
-  margin-right: 100px;
-  background-color: #1AA0B8;
+  height: 1.2rem;
+  padding: 0.15rem;
+  background-color: #1b6dd1;
 
 }
 
 .logo {
   height: 1.2rem;
-  width: 1.5rem;  
+  width: 1.3rem;  
 }
 
-.svg{
-  color: #fff;
+.container{
+  margin-bottom: 0.5rem;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20vh;
+  margin: 0.4rem;
+  padding: 0.4rem;
+  background: #f0f0f0 url("../../assets/PaypalLogoCompressed.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.h1{
+  font-weight: bold;
+  font-size: larger;
+}
+
+.h2{
+  font-weight: bold;
+  font-size: large;
+}
+
+.h3{
+  font-weight: bold;
+  font-size: medium;
+}
+
+.margin-top{
+  margin-top: 0.5rem;
+}
+
+
+.text{
+  display: block;
+  text-align: center;
+}
+
+.body-text{
+  display: block;
+  text-align: left;
+  padding: 5px;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30vh;
+  margin: 0.4rem;
+  padding: 0.4rem 0.4rem; /* top | left and right | bottom */
+  background-color: #f0f0f080;
+  border-radius: 10px;
+}
+
+.balance-info{
+  margin-left: 1rem;
+  
+}
+
+
+.transact{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0.4rem 0 0.4rem 0;
+}
+
+.btn{
+  padding:  0 0.4rem 0.4rem;
+  border-radius: 20px;
+  min-width: 2.8rem;
+  background-color: #1b6dd1;
+}
