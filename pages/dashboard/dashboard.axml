@@ -25,7 +25,7 @@
         
       </view>
         
-        <button class="btn" size="default" type="primary">Withdraw to MPESA</button>
+        <button class="btn green" size="default" type="primary">Withdraw to MPESA</button>
 
     </view>
   
