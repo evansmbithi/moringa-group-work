@@ -1,0 +1,12 @@
+
+<view class="user-dashboard">
+  <view class="nav">
+    <view>
+      <image class="logo" src="../../assets/PaypalLogoCompressed.jpg" />      
+    </view>
+    <view>
+      <icon type="waiting" aria-label="waiting" size="45"/>
+    </view>
+  </view>
+
+</view>

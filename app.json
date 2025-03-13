@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/login-webview/login-webview",
+    "pages/dashboard/dashboard"
+    
+  ],
+  "window": {
+    "defaultTitle": "Paypal-to-Mpesa",
+    "titleBarColor": "#323239"
+  }
+}

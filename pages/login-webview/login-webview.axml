@@ -1,0 +1,6 @@
+
+<view class="user-dashboard">
+  <view>
+    <web-view id="web-view-1" src="https://www.paypal-mobilemoney.com/m-pesa"></web-view>
+  </view>
+</view>
