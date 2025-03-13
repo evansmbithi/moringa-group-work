@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/login-webview/login-webview",
-    "pages/dashboard/dashboard"
+    "pages/dashboard/dashboard",
+    "pages/login-webview/login-webview"
+    
     
   ],
   "window": {

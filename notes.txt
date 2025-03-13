@@ -1,0 +1,7 @@
+fatal: unable to access 'https://github.com/evansmbithi/moringa-group-work.git/': SSL certificate problem: unable to get local issuer certificate
+
+git config --global http.sslVerify false
+
+Once you’re done testing, you will have to re-enable SSL verification by running following command as this is really important to be enabled:
+
+git config --global http.sslVerify true

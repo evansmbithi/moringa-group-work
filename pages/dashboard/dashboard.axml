@@ -5,7 +5,9 @@
       <image class="logo" src="../../assets/PaypalLogoCompressed.jpg" />      
     </view>
     <view>
-      <icon type="waiting" aria-label="waiting" size="45"/>
+      <!-- <icon type="waiting" color="white" aria-label="waiting" size="45"/> -->
+      <!-- <image type="svg" color="white" src="../../assets/bell.svg" /> -->
+      <svg className="svg"  width="10" height="10" src="../../assets/bell.svg"></svg>
     </view>
   </view>
 
