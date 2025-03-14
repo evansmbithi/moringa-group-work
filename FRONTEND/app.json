@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/dashboard/dashboard",
-    "pages/login-webview/login-webview"
+    "pages/withdraw/withdraw"
+    
     
     
   ],

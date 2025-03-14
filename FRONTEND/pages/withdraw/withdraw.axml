@@ -1,0 +1,27 @@
+
+<view class="user-dashboard">
+  <view class="nav">
+    <view>
+      <image class="logo" src="../../assets/paypal-icon-logo.svg"/>
+      <image class="logo2" src="../../assets/MPESA.png"/>      
+    </view>
+    <view>      
+      <image class="bell" src="../../assets/notification-bell.png" />
+    </view>
+  </view>
+
+  <view class="container">
+    
+  
+    <view class="balance">
+      <text class="balance-text h1">Enter Amount</text>   
+      <input type="number" class="input balance-text h1 margin-top font-blue" onBlur="onBlur" value="{{inputValue}}"/>
+    </view>
+  
+    <view class="transact">
+      <button onTap="goToPrevious" class="btn outline" size="default" type="primary">Cancel</button>
+      <button onTap="withdraw" class="btn green" size="default" type="primary">Confirm</button>
+    </view>
+    
+  </view>
+</view>

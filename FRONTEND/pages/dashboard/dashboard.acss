@@ -1,8 +1,7 @@
 *{
-  font-size: 16px;
+  font-size: 18px;
   font-family: sans-serif;
 }
-
 
 .user-dashboard{
   display: flex;
@@ -14,20 +13,31 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  height: 1.2rem;
+  width: 96%;
+  max-height: 1.2rem;
   padding: 0.15rem;
   background-color: #1b6dd1;
 
 }
 
 .logo {
-  height: 1.2rem;
-  width: 1.3rem;  
+  height: .6rem;
+  width: .9rem;  
+}
+.logo2 {
+  height: .7rem;
+  width: .5rem;  
+}
+
+.bell {
+  height: .65rem;
+  width: .65rem;  
+  /* margin: 10px; */
 }
 
 .container{  
   padding-bottom: 0.3rem;
+  width: 100%;
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -35,16 +45,29 @@
   background-color: #f0f0f0;
 }
 
-.header{
+
+.user {
   display: flex;
+  flex-shrink: 0;
+  padding: 10px;
+  /* color: #FFF; */
   flex-direction: column;
-  justify-content: space-between;
-  height: 25vh;
-  margin: 0.4rem;
-  padding: 0.4rem;
-  background: #f0f0f0 url("../../assets/PaypalLogoCompressed.jpg") no-repeat center center;
-  background-size: cover;
-  border-radius: 10px;
+  align-items: center;
+}
+
+.avatar {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  background-color: #FFF;
+  align-self: center;
+}
+
+.nickname {
+  padding-top: 40rpx;
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: 100;
 }
 
 .h1{
@@ -63,22 +86,32 @@
 }
 
 .margin-top{
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
 }
 
 
 .text{
   display: block;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.center{
+  display: block;
   text-align: center;
 }
 
-.body-text{
+.font-blue{
+  color: #1b6dd1;
+}
+
+.balance-text{
   display: block;
   text-align: left;
   padding: 5px;
 }
 
-.body{
+.balance{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -94,6 +127,18 @@
   
 }
 
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+  margin: 0.4rem;
+  padding: 0.4rem;
+  background: #f0f0f0 url("../../assets/flying-cash.png") no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
 
 .transact{
   display: flex;
@@ -106,9 +151,9 @@
   padding:  0 0.4rem 0.4rem;
   border-radius: 20px;
   min-width: 2.8rem;
-  background-color: #1b6dd1;
+  background-color: #116bd9;
 }
 
 .green{
-  background-color: green;
+  background-color: rgb(11, 173, 11);
 }

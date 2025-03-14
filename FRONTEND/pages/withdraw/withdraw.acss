@@ -1,0 +1,167 @@
+*{
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+
+.user-dashboard{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  max-height: 1.2rem;
+  padding: 0.15rem;
+  background-color: #1b6dd1;
+
+}
+
+.logo {
+  height: .6rem;
+  width: .9rem;  
+}
+.logo2 {
+  height: .7rem;
+  width: .5rem;  
+}
+
+.bell {
+  height: .65rem;
+  width: .65rem;  
+  /* margin: 10px; */
+}
+
+.container{  
+  padding-bottom: 0.3rem;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #f0f0f0;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+  margin: 0.4rem;
+  padding: 0.4rem;
+  background: #f0f0f0 url("../../assets/flying-cash.png") no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.h1{
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
+.h2{
+  font-weight: bold;
+  font-size: large;
+}
+
+.h3{
+  font-weight: bold;
+  font-size: large;
+}
+
+.margin-top{
+  margin-top: 0.3rem;
+}
+
+
+.text{
+  display: block;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.center{
+  display: block;
+  text-align: center;
+}
+
+.font-blue{
+  color: #1b6dd1;
+}
+
+.balance-text{
+  display: block;
+  text-align: left;
+  padding: 5px;
+}
+
+.balance{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  justify-content: space-around;
+  height: 20vh;
+  margin: 0.4rem 0.4rem 0 0.4rem;
+  padding: 0.1rem 0.4rem; /* top | left and right | bottom */
+  
+}
+
+.balance-info{
+  margin-left: 1rem;
+  
+}
+
+
+.transact{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0.1rem 0 0.4rem 0;
+  height: 30vh;
+}
+
+.btn{
+  padding:  0 0.4rem 0.4rem;
+  border-radius: 20px;
+  min-width: 2.8rem;
+  background-color: #116bd9;
+}
+
+.outline{
+  background-color: #f0f0f0;
+  color: #116bd9;
+  border-width: 1.5px;
+}
+
+.outline:active,.btn:active{
+  color: #f0f0f0;
+}
+
+.green{
+  background-color: rgb(11, 173, 11);
+}
+
+.input{
+  background-color: #f0f0f0;
+  border-bottom: gray solid;
+  height: 100px;
+  font-size: 60px;
+  position: relative;
+  padding-left: 50px;
+  padding-bottom: 0;
+}
+
+.input::before{
+  content: "$";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background: transparent;
+  z-index: 100;
+
+  
+}

@@ -1,0 +1,42 @@
+
+<view class="user-dashboard">
+  <view class="nav">
+    <view>
+      <image class="logo" src="../../assets/paypal-icon-logo.svg"/>
+      <image class="logo2" src="../../assets/MPESA.png"/>      
+    </view>
+    <view>      
+      <image class="bell" src="../../assets/notification-bell.png" />
+    </view>
+  </view>
+
+  <view class="container">
+    <view class="user">
+      <image class="avatar" src="{{user.avatar || '../../assets/logo.png'}}" background-size="cover"></image>
+      <view class="nickname">{{user.nickName && user.nickName}}</view>
+    </view>
+    
+  
+    <view class="balance">
+      <view class="balance-info">
+        <text class="balance-text h3">Paypal Balance</text>           
+        <view a:if="{{dashboard_balance !== ''}}">
+          <text class="balance-text h1 margin-top font-blue">$ {{dashboard_balance}}</text>
+          <text class="balance-text font-blue">Available</text>
+        </view>     
+      </view>        
+        <button  onTap="goToWithdraw" class="btn green" size="default" type="primary">Withdraw to MPESA</button>
+    </view>
+
+    <view class="banner">
+      <!-- <text class="h2 center">Withdraw money from PayPal to MPESA</text> -->
+      <text class="text">You can easily withdraw money to your MPESA account, and use it whenever, wherever!</text>
+    </view>
+  
+    <!-- <view class="transact">
+      <button class="btn" size="default" type="primary">Send</button>
+      <button class="btn" size="default" type="primary">Request</button>
+    </view> -->
+    
+  </view>
+</view>
